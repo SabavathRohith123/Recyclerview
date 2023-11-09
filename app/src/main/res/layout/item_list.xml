@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/movie1"
+            android:id="@+id/movieimage">
+
+        </ImageView> 
+
+
+        <TextView
+            android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="AA"
+                    android:id="@+id/actorname"
+                    android:gravity="center"
+                    android:padding="30dp"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="movies"
+                        android:padding="30dp"
+                        android:gravity="center"
+                        android:id="@+id/moviecount"/>
+
+
+</LinearLayout>
+
+
+
+
+
